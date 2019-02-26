@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#This assumes you have maprcli and access to /public_data
+#This assumes you have maprcli and access to yelp data sets
 
 #set up volumes
 maprcli volume create -name demo-files -path /demo-files -readAce 'p' -writeAce 'p'
